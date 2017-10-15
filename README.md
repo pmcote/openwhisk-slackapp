@@ -107,8 +107,7 @@ For the next app configuration steps to work we need to have our actions up and 
    cp template.local.env local.env
    ```
 
-1. Get the service credentials for the Cloudant service created above and set CLOUDANT_url
-in `local.env` to the corresponding value (url). Make sure you take the full url including the username and password https://username:password@hostname.cloudant.com.
+1. To get the service credentials, go to the Bluemix UI in your browser and select the service you are using.  Select service credentials and then view credentials to see the URL with the correct username and password. Set CLOUDANT_url in `local.env` to the corresponding value (url). Make sure you take the full url including the username and password https://username:password@hostname.cloudant.com.
 
 1. Set the values for SLACK_CLIENT_ID, SLACK_CLIENT_SECRET, SLACK_VERIFICATION_TOKEN - these are the App Credentials we've seen in the previous steps.
 
